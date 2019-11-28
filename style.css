@@ -1,0 +1,46 @@
+html {
+    font-size: 62.5%;
+}
+body * {
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin:auto;
+    margin-top:25px;
+    color:black;
+}
+button{
+    border-radius: 50%;
+    background-color: white;
+    width: 4rem;
+    height: 4rem;
+    margin-left:25px;
+    margin-top:25px;
+    color: black;
+    font-weight: bold;
+    border: solid;
+    outline: none; /* to block a focus over a button*/
+}
+button:hover{
+    color:grey;
+}
+/* once selected (#099) is not orange anymore (unvisible) for tab*/
+button:focus{
+    color:orange;
+}
+/*bgc doesn't work...figure out the problem of VISITED*/
+button:visited{
+    background-color:greenyellow;  
+}
+
+.buttonClicked {
+    background-color:red;
+}
+
+/* green kidpool color(rgba, and #)
+color: rgba(0,51,51,.65)
+background-color: #099;
+
+ 
+
